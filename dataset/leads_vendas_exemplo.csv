@@ -1,0 +1,4 @@
+LeadID,Data,Vendedor,Origem,Etapa,Status,ProdutoServico,Valor,DataFechamento,DiasFechamento,NoPrazo,Conversao
+1,2025-10-01,Beatriz Lima,Instagram,Prospecção,Em andamento,Dashboard Financeiro,18490,2025-10-10,9.0,True,False
+2,2025-10-03,Carla Martins,E-mail,Fechamento,Concluído,Consultoria de Vendas,15920,2025-10-12,9.0,True,True
+3,2025-10-04,Rafael Souza,Google Ads,Proposta,Perdido,Planilha de Custos,0,,,False,False

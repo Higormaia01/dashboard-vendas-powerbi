@@ -1,0 +1,13 @@
+Tabela,Coluna,Tipo,Descrição,Exemplo
+Leads,LeadID,Inteiro,Identificador único do lead,1023
+Leads,Data,Data,Data de entrada do lead,2025-10-12
+Leads,Vendedor,Texto,Responsável pelo lead,Beatriz Lima
+Leads,Origem,Texto,Origem do lead,Instagram
+Leads,Etapa,Texto,Etapa atual no funil,Proposta
+Leads,Status,Texto,Status do lead,Concluído
+Leads,ProdutoServico,Texto,Produto/serviço de interesse,Dashboard Financeiro
+Leads,Valor,Moeda,Valor estimado/fechado,18490
+Leads,DataFechamento,Data,Data de fechamento (se concluído),2025-10-20
+Leads,DiasFechamento,Inteiro,Dias decorridos até o fechamento,10
+Leads,NoPrazo,Booleano,Fechado dentro do SLA/Prazo,True
+Leads,Conversao,Booleano,Indicador se converteu em venda,True

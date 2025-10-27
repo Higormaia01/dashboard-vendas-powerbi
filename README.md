@@ -19,17 +19,6 @@ Este repositório contém documentação, imagens e um dataset de **exemplo**, a
 
 ---
 
-## 🧩 Modelagem de Dados (conceito)
-Tabelas principais:
-- `Leads` (fato)
-- `ProdutosServicos` (dimensão)
-- `Vendedores` (dimensão)
-- `Calendario` (dimensão de tempo)
-
-Relacionamentos **1:N** das dimensões para a fato, com direção única para garantir desempenho.
-
----
-
 ## 📐 Métricas DAX (exemplo)
 | Medida | DAX (pseudo) | Descrição |
 |---|---|---|
@@ -39,7 +28,6 @@ Relacionamentos **1:N** das dimensões para a fato, com direção única para ga
 | **Receita Total** | `SUM(Leads[Valor])` | Soma de valores fechados |
 | **Ticket Médio** | `DIVIDE([Receita Total], [Vendas Concluídas])` | Valor médio por venda |
 | **Tempo Médio de Fechamento (dias)** | `AVERAGE(Leads[DiasFechamento])` | Ciclo médio de venda |
-
 
 
 ---
@@ -76,9 +64,7 @@ dashboard-vendas-powerbi/
 
 ---
 
-DashBoard
-<iframe title="Template Bi de vendas" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiM2IyZDQyYjctNjQ4ZC00Nzc2LTliMTQtNGFhOGE5Mjg4NzMyIiwidCI6IjMyZjE0YjcyLWYyYWYtNGVlZi1iZTA2LWViN2ZlYTI1M2IzMyJ9" frameborder="0" allowFullScreen="true"></iframe>
-
+Link para acesso ao DashBoard: https://app.powerbi.com/view?r=eyJrIjoiM2IyZDQyYjctNjQ4ZC00Nzc2LTliMTQtNGFhOGE5Mjg4NzMyIiwidCI6IjMyZjE0YjcyLWYyYWYtNGVlZi1iZTA2LWViN2ZlYTI1M2IzMyJ9
 
 ---
 
@@ -95,6 +81,12 @@ DashBoard
 - Entendimento do ciclo de vendas e gargalos por etapa/produto.
 - Ranking de vendedores e origens de lead mais eficientes.
 - Base para previsões/otimizações com ML (futuro).
+
+🧠 O que eu aprendi com este projeto
+
+Durante o desenvolvimento deste dashboard de vendas, aprimorei minhas habilidades em modelagem de dados, DAX e Power Query, criando um fluxo completo de ETL e visualização conectado a uma base no Google Sheets.
+Aprendi a estruturar métricas de desempenho como taxa de conversão, ticket médio, ciclo de vendas e produtividade por vendedor, além de aplicar boas práticas de design e storytelling de dados no Power BI.
+Esse projeto também reforçou minha capacidade de analisar indicadores comerciais e transformar informações em insights acionáveis para apoiar decisões estratégicas.
 
 ---
 

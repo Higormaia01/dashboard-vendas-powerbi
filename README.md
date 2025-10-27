@@ -40,7 +40,7 @@ Relacionamentos **1:N** das dimensões para a fato, com direção única para ga
 | **Ticket Médio** | `DIVIDE([Receita Total], [Vendas Concluídas])` | Valor médio por venda |
 | **Tempo Médio de Fechamento (dias)** | `AVERAGE(Leads[DiasFechamento])` | Ciclo médio de venda |
 
-> As medidas reais variam conforme seu modelo. Este arquivo será ajustado conforme o `.pbix` final.
+
 
 ---
 

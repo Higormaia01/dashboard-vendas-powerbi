@@ -49,12 +49,11 @@ Este dashboard pode ser conectado diretamente à planilha:
 **https://docs.google.com/spreadsheets/d/1LJ29I5mlXayyns2aMnS0aGoJ-cINJ4rUBzqvwo47xOE/edit?usp=sharing**
 
 ### Como conectar no Power BI Desktop
-1. **Obter Dados** → **Web**.  
+1. **Obter Dados** → **Planilhas Google**.  
 2. Cole a URL **de exportação CSV** do Google Sheets (Arquivo → Compartilhar → Qualquer pessoa com o link / publicar na web ou use o link de CSV do GSheets).  
 3. Use o **Power Query** para tratamento (tipos, datas, colunas calculadas, filtros).  
 4. Atualize as relações e medidas no modelo.
 
-> Alternativa: Conectar via **Google Sheets Connector** (se disponível) ou publicar a planilha como CSV público e usar essa URL.
 
 ---
 
@@ -77,13 +76,9 @@ dashboard-vendas-powerbi/
 
 ---
 
-## ▶️ Como Executar (passo a passo)
-1. Baixe o arquivo **PBIX** (adicione-o a este repositório ou disponibilize um link de download).
-2. Abra no **Power BI Desktop**.
-3. No **Power Query**, troque a fonte para o Google Sheets indicado em `dataset/google_sheet_link.txt`.
-4. Verifique as credenciais de acesso.
-5. Atualize as tabelas, confirme as relações e teste as medidas.
-6. Publique no **Power BI Service** (opcional) e configure atualização agendada, se necessário.
+DashBoard
+<iframe title="Template Bi de vendas" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiM2IyZDQyYjctNjQ4ZC00Nzc2LTliMTQtNGFhOGE5Mjg4NzMyIiwidCI6IjMyZjE0YjcyLWYyYWYtNGVlZi1iZTA2LWViN2ZlYTI1M2IzMyJ9" frameborder="0" allowFullScreen="true"></iframe>
+
 
 ---
 
@@ -91,7 +86,7 @@ dashboard-vendas-powerbi/
 - **Power BI Desktop** (Power Query + DAX)
 - **Google Sheets** (fonte de dados)
 - **Excel/CSV** (dados locais de exemplo)
-- **Figma** (opcional, para layouts e UI)
+- **Figma** (Criação dos Layouts)
 
 ---
 
@@ -105,10 +100,9 @@ dashboard-vendas-powerbi/
 
 ## 👤 Autor
 **Higor Maia** — BI & Data Analytics  
-🌐 Blog: https://datamarketingdigital.com.br/blog  
 💼 LinkedIn: https://www.linkedin.com/in/higor-maia/  
-🐙 GitHub: https://github.com/higormaia  
-📧 E-mail: higormaia.data@gmail.com
+🐙 GitHub: https://github.com/higormaia01  
+📧 E-mail: higorpachelly@outlook.com
 
 ---
 
